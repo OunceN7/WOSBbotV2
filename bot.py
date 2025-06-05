@@ -4,7 +4,7 @@ from aiogram import Bot, Dispatcher, types
 from aiogram.types import Message
 from aiogram.filters import CommandStart, Command
 from aiogram.enums import ChatMemberStatus
-from aiogram.utils.keyboard import ReplyKeyboardRemove
+from aiogram.types import ReplyKeyboardRemove
 import asyncio
 from datetime import datetime
 
